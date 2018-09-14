@@ -23,3 +23,6 @@ npm-debug.log
 # Utilities
 .jshintrc
 .travis.yml
+.editorconfig
+.eslintrc-base.js
+.eslintrc.js
