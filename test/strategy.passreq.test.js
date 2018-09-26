@@ -8,6 +8,8 @@ describe('Strategy', function () {
 		const _token = _app.token;
 		const strategy = new Strategy({
 			authorizationURL: 'http://localhost:3000/me',
+			headerFields: 'Authorization',
+			_tokenFields: 'access_token',
 			passReqToCallback: true
 		}, function (req, token, refreshToken, profile, done) {
 			if (token === _token) {
