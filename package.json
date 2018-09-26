@@ -1,6 +1,6 @@
 {
   "name": "passport-loopback",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Authentication loopback.io token for passport",
   "main": "./lib",
   "scripts": {
